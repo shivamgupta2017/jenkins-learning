@@ -4,6 +4,7 @@ pipeline {
     //       image 'node:14-alpine'
     //       args  '-u C:C' }
     // }
+    agent any
     stages {
         stage('Test') {
             input {
